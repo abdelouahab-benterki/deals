@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Main css-->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>DealWhales</title>
+  </head>
+  <body class="bg-gray-100 text-blue-950 font-raleway">
+    <!--Start heading-->
+    <header class="relative bg-white">
+      <div class="container header-container">
+        <div class="header-bg"></div>
+        <div class="logo z-40">
+          <h1 class="text-2xl font-black">
+            <a href="./index.html" class="text-2xl font-black">DealWhales</a>
+          </h1>
+        </div>
+        <nav class="nav">
+          <ul class="link-list">
+            <li>
+              <a href="./about.html" class="nav-link">about</a>
+            </li>
+            <li><a href="./products.html" class="nav-link">products</a></li>
+            <li><a href="./contact.html" class="nav-link">contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <!--End heading-->
+    <!--Start main-->
+    <main>
+      <!--Start products-->
+      <section class="py-10">
+        <div class="container">
+          <div class="capitalize text-2xl font-bold mb-8">products</div>
+          <div class="border-b pb-4 border-gray-600">
+            <p class="text-gray-800 xl:w-7/12 w-full">
+              Lorem ipsum dolor sit amet consectetur. Curabitur neque porta
+              morbi eget quisque vitae.Volutpat malesuada arcu lectus sapien
+              nisi nunc imperdiet odio.
+            </p>
+          </div>
+
+          <div
+            class="flex justify-center items-center flex-wrap py-5 gap-8 products mt-8 transition-all"
+          >
+            <!-- <article class="article">
+              <img
+                src="./images/1.jpeg"
+                alt="prod"
+                class="w-full object-cover h-72"
+              />
+
+              <div class="p-4">
+                <div class="capitalize text-lg font-bold">product name</div>
+                <div class="capitalize text-sm font-medium text-gray-600">
+                  sub informations
+                </div>
+                <div class="font-bold">$ 25</div>
+              </div>
+            </article>-->
+          </div>
+          <div class="flex justify-center items-center gap-2 mt-4 pagination">
+            <!--<div
+              class="relative w-8 h-8 p-1 border-2 rounded-full border-blue-600 flex justify-center items-center text-blue-600 cursor-pointer hover:bg-blue-600 hover:text-white transition-all"
+            >              
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </div>-->
+
+            <!--   <div
+              class="cursor-pointer w-8 h-8 p-1 border-2 rounded-full border-blue-600 flex justify-center items-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!--End products-->
+    </main>
+    <!--End main-->
+    <!--Start footer-->
+    <footer class="bg-gray-200 p-4">
+      <div class="container">
+        <p class="text-lg font-medium opacity-90 text-center">
+          All Rights Reserved &copy; 2023 DealWhales &trade;
+        </p>
+      </div>
+    </footer>
+    <!--End footer-->
+    <!--javascript-->
+    <script src="./app.js"></script>
+    <script src="./products-generator.js" type="module"></script>
+  </body>
+</html>
